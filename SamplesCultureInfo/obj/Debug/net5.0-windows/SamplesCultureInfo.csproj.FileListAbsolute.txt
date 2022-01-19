@@ -1,0 +1,16 @@
+D:\Temp\GlyphsTest\SamplesCultureInfo\bin\Debug\net5.0-windows\SamplesCultureInfo.exe
+D:\Temp\GlyphsTest\SamplesCultureInfo\bin\Debug\net5.0-windows\SamplesCultureInfo.deps.json
+D:\Temp\GlyphsTest\SamplesCultureInfo\bin\Debug\net5.0-windows\SamplesCultureInfo.runtimeconfig.json
+D:\Temp\GlyphsTest\SamplesCultureInfo\bin\Debug\net5.0-windows\SamplesCultureInfo.runtimeconfig.dev.json
+D:\Temp\GlyphsTest\SamplesCultureInfo\bin\Debug\net5.0-windows\SamplesCultureInfo.dll
+D:\Temp\GlyphsTest\SamplesCultureInfo\bin\Debug\net5.0-windows\ref\SamplesCultureInfo.dll
+D:\Temp\GlyphsTest\SamplesCultureInfo\bin\Debug\net5.0-windows\SamplesCultureInfo.pdb
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.csproj.AssemblyReference.cache
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.AssemblyInfoInputs.cache
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.AssemblyInfo.cs
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.csproj.CoreCompileInputs.cache
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.dll
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\ref\SamplesCultureInfo.dll
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.pdb
+D:\Temp\GlyphsTest\SamplesCultureInfo\obj\Debug\net5.0-windows\SamplesCultureInfo.genruntimeconfig.cache

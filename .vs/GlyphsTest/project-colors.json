@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "36fe5329-b321-4ea7-a5f0-71c83761170a": {
+      "ProjectGuid": "36fe5329-b321-4ea7-a5f0-71c83761170a",
+      "DisplayName": "GlyphsTest",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "f97835b2-d771-4cb2-a86b-b8500de135ff": {
+      "ProjectGuid": "f97835b2-d771-4cb2-a86b-b8500de135ff",
+      "DisplayName": "SamplesCultureInfo",
+      "ColorIndex": 1
+    },
+    "2e258bec-43ac-450e-86c3-c70f99569e0c": {
+      "ProjectGuid": "2e258bec-43ac-450e-86c3-c70f99569e0c",
+      "DisplayName": "SimpleTextBox",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
