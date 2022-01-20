@@ -1,0 +1,16 @@
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.csproj.SuggestedBindingRedirects.cache
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\MainWindow.g.cs
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText_MarkupCompile.cache
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText_MarkupCompile.lref
+I:\tmp\SimpleText\SimpleText\bin\Debug\net48\SimpleText.exe.config
+I:\tmp\SimpleText\SimpleText\bin\Debug\net48\SimpleText.exe
+I:\tmp\SimpleText\SimpleText\bin\Debug\net48\SimpleText.pdb
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\MainWindow.baml
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.g.resources
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.GeneratedMSBuildEditorConfig.editorconfig
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.AssemblyInfoInputs.cache
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.AssemblyInfo.cs
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.csproj.CoreCompileInputs.cache
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.exe
+I:\tmp\SimpleText\SimpleText\obj\Debug\net48\SimpleText.pdb

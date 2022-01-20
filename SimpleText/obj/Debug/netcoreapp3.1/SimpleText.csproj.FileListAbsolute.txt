@@ -23,7 +23,6 @@ I:\tmp\SimpleText\SimpleText\bin\Debug\netcoreapp3.1\SimpleText.runtimeconfig.js
 I:\tmp\SimpleText\SimpleText\bin\Debug\netcoreapp3.1\SimpleText.runtimeconfig.dev.json
 I:\tmp\SimpleText\SimpleText\bin\Debug\netcoreapp3.1\SimpleText.dll
 I:\tmp\SimpleText\SimpleText\bin\Debug\netcoreapp3.1\SimpleText.pdb
-I:\tmp\SimpleText\SimpleText\obj\Debug\netcoreapp3.1\SimpleText.csproj.AssemblyReference.cache
 I:\tmp\SimpleText\SimpleText\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 I:\tmp\SimpleText\SimpleText\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 I:\tmp\SimpleText\SimpleText\obj\Debug\netcoreapp3.1\SimpleText_MarkupCompile.cache
