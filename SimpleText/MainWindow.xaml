@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel>
-            <local:SimpleTextBlock Width="300" Height="200">
+            <!--<local:SimpleTextBlock Width="300" Height="200">
                 <local:SimpleTextBlock.SimpleParagraphs>
                     <local:SimpleParagraph FontSize="32" 
                                            FontFamily="微软雅黑" 
@@ -47,8 +47,21 @@
                                            />
 
                 </local:SimpleTextBlock.SimpleParagraphs>
-            </local:SimpleTextBlock>
-            <!--<TextBlock FontWeight="Bold">Hello World!</TextBlock>-->
+            </local:SimpleTextBlock>-->
+
+            <local:SimpleTextView Width="100" Height="70"></local:SimpleTextView>
+
+            <FlowDocumentReader Height="150">
+                <FlowDocument x:Name="FlowDocument">
+                    <Paragraph x:Name="Paragraph">
+                         <Run>Hello,</Run>
+                         <Run>Hello!</Run>
+                         <Run>Hello~</Run>
+                         <Run>Hello~</Run>
+                    </Paragraph>
+                </FlowDocument>
+            </FlowDocumentReader>
+            <Button Click="ButtonBase_OnClick">Click Me</Button>
         </StackPanel>
     </Grid>
 </Window>

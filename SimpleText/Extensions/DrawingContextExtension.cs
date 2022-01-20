@@ -1,17 +1,97 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Linq;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Media;
 
-
-
 namespace SimpleText
 {
     internal static class DrawingContextExtension
     {
+        /// <summary>
+        /// 使用一个静态词典来缓存已经加载的字体族。
+        /// </summary>
+        private static readonly  Dictionary<string,FontFamily> FontFamilies = new();
+
+        internal static void DrawSimpleRun(this DrawingContext dc, SimpleRun run)
+        {
+            if (run.GlyphChars is null || run.GlyphChars.Count == 0)
+            {
+                return;
+            }
+
+            double y = 0;
+            double offset = 0;
+            double maxRowHeight = 0;
+
+            foreach (var glyphChar in run.GlyphChars)
+            {
+                FontFamily? fontFamily;
+
+                // 换行直接跳转至下一行咯。
+                if (glyphChar.UnicodeChar.Equals('\r'))
+                {
+                    maxRowHeight = Math.Max(maxRowHeight, glyphChar.FontSize);
+                    y += maxRowHeight;
+                    offset = 0;
+                    continue;
+                }
+
+                if (FontFamilies.TryGetValue(glyphChar.FontFamily, out fontFamily) is false)
+                {
+                    try
+                    {
+                        fontFamily = new FontFamily(glyphChar.FontFamily);
+                        FontFamilies[glyphChar.FontFamily] = fontFamily; // 存储字体至词典呗。
+                    }
+                    catch
+                    {
+                        continue;
+                    }
+                }
+
+                // 创建一个字体。
+                Typeface typeface = new(fontFamily, glyphChar.FontStyle, glyphChar.FontWeight, FontStretches.Normal);
+                GlyphTypeface? glyphTypeface;
+                if (typeface.TryGetGlyphTypeface(out glyphTypeface) is false)
+                {
+                    continue;
+                }
+
+                var glyphMap = glyphTypeface.CharacterToGlyphMap;
+                var baseLine = GetBaseline(fontFamily, glyphChar.FontSize);
+                if (glyphMap.TryGetValue(glyphChar.UnicodeChar, out var glyphIndex) is false)
+                {
+                    continue;
+                }
+
+                var width = glyphTypeface.AdvanceWidths[glyphIndex] * glyphChar.FontSize;
+                width = RefineValue(width);
+
+                var glyphRun = new GlyphRun(
+                    glyphTypeface: glyphTypeface,
+                    bidiLevel: 0,
+                    isSideways: false,
+                    renderingEmSize: glyphChar.FontSize,
+                    pixelsPerDip: 96,
+                    glyphIndices: new[] { glyphIndex },
+                    baselineOrigin: new Point(offset, baseLine + y),
+                    advanceWidths: new[] { width },
+                    glyphOffsets: DefaultGlyphOffsetArray,
+                    characters: new char[] { glyphChar.UnicodeChar },
+                    deviceFontName: null,
+                    clusterMap: null,
+                    caretStops: null,
+                    language: DefaultXmlLanguage);
+
+                dc.DrawGlyphRun(glyphChar.Foreground, glyphRun);
+                offset += width;
+            }
+        }
+
         internal static void DrawSimpleParagraph(this DrawingContext drawingContext, SimpleParagraph paragraph, Point originPoint)
         {
             if (string.IsNullOrEmpty(paragraph.Text))

@@ -14,7 +14,7 @@ namespace SimpleText
         /// <summary>
         /// 需要呈现的 Unicode 字符。
         /// </summary>
-        public char? UnicodeChar { get; init; } = default;
+        public char UnicodeChar { get; init; } = default;
 
         /// <summary>
         /// 字体权重，默认值 Normal。
@@ -44,6 +44,6 @@ namespace SimpleText
         /// <summary>
         /// 字体族，默认值“微软雅黑”。
         /// </summary>
-        public string? FontFamily { get; init; } = "微软雅黑";
+        public string FontFamily { get; init; } = "微软雅黑";
     }
 }

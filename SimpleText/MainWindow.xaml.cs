@@ -20,6 +20,14 @@ namespace SimpleText
         public MainWindow()
         {
             InitializeComponent();
+
+            this.Paragraph.Inlines.Add(new Run("Hello \nWorld"));
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            TextPointer start = FlowDocument.ContentStart;
+            TextPointer end = FlowDocument.ContentEnd;
         }
     }
 }
