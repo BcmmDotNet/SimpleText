@@ -70,6 +70,10 @@ namespace SimpleText
 
                 var width = glyphTypeface.AdvanceWidths[glyphIndex] * glyphChar.FontSize;
                 width = RefineValue(width);
+                var height = glyphTypeface.AdvanceHeights[glyphIndex] * glyphChar.FontSize;
+                height = RefineValue(height);
+
+                //dc.DrawRectangle();
 
                 var glyphRun = new GlyphRun(
                     glyphTypeface: glyphTypeface,
