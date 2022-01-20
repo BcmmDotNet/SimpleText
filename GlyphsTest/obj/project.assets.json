@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MySource\\Temp\\GlyphsTest\\GlyphsTest\\GlyphsTest.csproj",
+      "projectUniqueName": "I:\\tmp\\SimpleText\\GlyphsTest\\GlyphsTest.csproj",
       "projectName": "GlyphsTest",
-      "projectPath": "D:\\MySource\\Temp\\GlyphsTest\\GlyphsTest\\GlyphsTest.csproj",
+      "projectPath": "I:\\tmp\\SimpleText\\GlyphsTest\\GlyphsTest.csproj",
       "packagesPath": "C:\\Users\\LanXiaofang\\.nuget\\packages\\",
-      "outputPath": "D:\\MySource\\Temp\\GlyphsTest\\GlyphsTest\\obj\\",
+      "outputPath": "I:\\tmp\\SimpleText\\GlyphsTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LanXiaofang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nexus.gz.cvte.cn:8080/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

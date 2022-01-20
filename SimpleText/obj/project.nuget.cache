@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uav1qrR4B51lnDFqnTOjCazyXJoP8AZlNLZ7bH+7QDx1+p+x3tqpkPQuwcP7/0yaVzxgkDHpfiU+psfQ1FE4YQ==",
+  "dgSpecHash": "WbkpqrDEfXUzbUiV3OHhc2ac13wb3aGNyeYrFjzEEU/3KKNAH2Z1HMzzURqfobkOG57cLOM91tSIL2SQB5QftA==",
   "success": true,
-  "projectFilePath": "D:\\MySource\\Temp\\GlyphsTest\\SimpleText\\SimpleText.csproj",
+  "projectFilePath": "I:\\tmp\\SimpleText\\SimpleText\\SimpleText.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

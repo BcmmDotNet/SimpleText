@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MySource\\Temp\\GlyphsTest\\SamplesCultureInfo\\SamplesCultureInfo.csproj",
+      "projectUniqueName": "I:\\tmp\\SimpleText\\SamplesCultureInfo\\SamplesCultureInfo.csproj",
       "projectName": "SamplesCultureInfo",
-      "projectPath": "D:\\MySource\\Temp\\GlyphsTest\\SamplesCultureInfo\\SamplesCultureInfo.csproj",
+      "projectPath": "I:\\tmp\\SimpleText\\SamplesCultureInfo\\SamplesCultureInfo.csproj",
       "packagesPath": "C:\\Users\\LanXiaofang\\.nuget\\packages\\",
-      "outputPath": "D:\\MySource\\Temp\\GlyphsTest\\SamplesCultureInfo\\obj\\",
+      "outputPath": "I:\\tmp\\SimpleText\\SamplesCultureInfo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LanXiaofang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nexus.gz.cvte.cn:8080/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -55,24 +56,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MySource\\Temp\\GlyphsTest\\SimpleText\\SimpleText.csproj": {}
+    "I:\\tmp\\SimpleText\\SimpleText\\SimpleText.csproj": {}
   },
   "projects": {
-    "D:\\MySource\\Temp\\GlyphsTest\\SimpleText\\SimpleText.csproj": {
+    "I:\\tmp\\SimpleText\\SimpleText\\SimpleText.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MySource\\Temp\\GlyphsTest\\SimpleText\\SimpleText.csproj",
+        "projectUniqueName": "I:\\tmp\\SimpleText\\SimpleText\\SimpleText.csproj",
         "projectName": "SimpleText",
-        "projectPath": "D:\\MySource\\Temp\\GlyphsTest\\SimpleText\\SimpleText.csproj",
+        "projectPath": "I:\\tmp\\SimpleText\\SimpleText\\SimpleText.csproj",
         "packagesPath": "C:\\Users\\LanXiaofang\\.nuget\\packages\\",
-        "outputPath": "D:\\MySource\\Temp\\GlyphsTest\\SimpleText\\obj\\",
+        "outputPath": "I:\\tmp\\SimpleText\\SimpleText\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LanXiaofang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.gz.cvte.cn:8080/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
