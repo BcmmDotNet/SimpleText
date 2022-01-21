@@ -19,18 +19,18 @@ namespace SimpleText
         {
             Collection<GlyphChar> glyphChars = new Collection<GlyphChar>
             {
-                new GlyphChar(){UnicodeChar = 'H'},
-                new GlyphChar(){UnicodeChar = 'E'},
-                new GlyphChar(){UnicodeChar = 'L'},
-                new GlyphChar(){UnicodeChar = 'L'},
-                new GlyphChar(){UnicodeChar = 'O'},
-                new GlyphChar(){UnicodeChar = '!'},
-                new GlyphChar(){UnicodeChar = '\r'},
-                new GlyphChar(){UnicodeChar = 'W'},
-                new GlyphChar(){UnicodeChar = 'O'},
-                new GlyphChar(){UnicodeChar = 'R'},
-                new GlyphChar(){UnicodeChar = 'D'},
-                new GlyphChar(){UnicodeChar = '!'},
+                new GlyphChar(){UnicodeChar = 'H', Background = Brushes.Red, Foreground = Brushes.Blue, FontFamily = "微软雅黑"},
+                new GlyphChar(){UnicodeChar = 'E', Background = Brushes.Green, Foreground = Brushes.Aqua, FontFamily = "等线"},
+                new GlyphChar(){UnicodeChar = '我', Background = Brushes.Blue, Foreground = Brushes.BlueViolet, FontFamily = "宋体"},
+                new GlyphChar(){UnicodeChar = 'L', Background = Brushes.Yellow, Foreground = Brushes.Brown, FontFamily = "Arial"},
+                new GlyphChar(){UnicodeChar = '是', Background = Brushes.Aqua, Foreground = Brushes.Chocolate, FontFamily = "Cambria"},
+                new GlyphChar(){UnicodeChar = '!', Background = Brushes.BlueViolet, Foreground = Brushes.DarkKhaki, FontFamily = "Cambria"},
+                new GlyphChar(){UnicodeChar = '\r',},
+                new GlyphChar(){UnicodeChar = 'W', Background = Brushes.Brown, Foreground = Brushes.DarkSalmon, FontFamily = "Arial"},
+                new GlyphChar(){UnicodeChar = '发', Background = Brushes.Chocolate, Foreground = Brushes.Gold, FontFamily = "宋体"},
+                new GlyphChar(){UnicodeChar = 'R', Background = Brushes.DarkKhaki, Foreground = Brushes.Aquamarine, FontFamily = "等线"},
+                new GlyphChar(){UnicodeChar = '菜', Background = Brushes.DarkSalmon, Foreground = Brushes.Beige, FontFamily = "微软雅黑"},
+                new GlyphChar(){UnicodeChar = '!', Background = Brushes.Gold, Foreground = Brushes.CadetBlue, FontFamily = "微软雅黑"},
             };
 
             return glyphChars;

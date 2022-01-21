@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Globalization;
-using System.Linq;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Media;
@@ -14,7 +12,7 @@ namespace SimpleText
         /// <summary>
         /// 使用一个静态词典来缓存已经加载的字体族。
         /// </summary>
-        private static readonly  Dictionary<string,FontFamily> FontFamilies = new();
+        private static readonly Dictionary<string, FontFamily> FontFamilies = new();
 
         internal static void DrawSimpleRun(this DrawingContext dc, SimpleRun run)
         {
@@ -73,7 +71,8 @@ namespace SimpleText
                 var height = glyphTypeface.AdvanceHeights[glyphIndex] * glyphChar.FontSize;
                 height = RefineValue(height);
 
-                //dc.DrawRectangle();
+                // 绘制文本的矩形背景。
+                dc.DrawRectangle(glyphChar.Background, null, new Rect(offset, baseLine + y - height, width, height));
 
                 var glyphRun = new GlyphRun(
                     glyphTypeface: glyphTypeface,
